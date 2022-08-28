@@ -1,7 +1,7 @@
 spring:
   datasource: 
     type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:postgresql://localhost:5432/battery_plus
+    url: jdbc:postgresql://localhost:5432/batteryplus_dev
     username: postgres
     password: sql
     hikari:
