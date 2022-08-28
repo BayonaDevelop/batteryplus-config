@@ -15,7 +15,7 @@ spring:
     defer-datasource-initialization: true
     hibernate:
       connection.provider_class: org.hibernate.hikaricp.internal.HikariCPConnectionProvider
-      ddl-auto: update
+      ddl-auto: none
     open-in-view: false
     properties:
       hibernate:
