@@ -28,3 +28,6 @@ spring:
           use_reflection_optimizer: false
         temp:
           use_jdbc_metadata_defaults: false
+  sql:
+    init:
+      mode: always
