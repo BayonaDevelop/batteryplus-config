@@ -12,10 +12,10 @@ spring:
       maximumPoolSize: 20
       idleTimeout: 30000
   jpa:
-    defer-datasource-initialization: true
+    # defer-datasource-initialization: true
     hibernate:
       connection.provider_class: org.hibernate.hikaricp.internal.HikariCPConnectionProvider
-      ddl-auto: none
+      ddl-auto: update
     open-in-view: false
     properties:
       hibernate:
